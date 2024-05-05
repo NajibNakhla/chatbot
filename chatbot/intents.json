@@ -1,0 +1,121 @@
+{
+    "intents": [
+      {
+        "tag": "greetings",
+        "patterns": ["hello", "hey", "hi", "good day", "greetings", "what's up?", "how is it going?"],
+        "responses": ["Hello!", "Hey!", "What can I do for you?"]
+      },
+      {
+        "tag": "farewell",
+        "patterns": ["goodbye", "bye", "see you later", "take care", "farewell"],
+        "responses": ["Goodbye!", "See you later!", "Take care!"]
+      },
+      {
+        "tag": "thanks",
+        "patterns": ["thank you", "thanks", "thanks a lot", "much appreciated"],
+        "responses": ["You're welcome!", "No problem!", "Glad to help!"]
+      },
+      {
+        "tag": "help",
+        "patterns": ["help", "need assistance", "can you help me", "support"],
+        "responses": ["Sure, I'm here to help!", "What do you need assistance with?", "I'm happy to assist!"]
+      },
+      {
+        "tag": "name",
+        "patterns": ["What's your name?", "Who are you?", "What should I call you?", "Your name?"],
+        "responses": ["My name is Pennywise Bot.", "You can call me Pennywise Bot."]
+      },
+      {
+        "tag": "purpose",
+        "patterns": ["What's your purpose?", "Why were you created?", "What can you do?", "Your purpose?"],
+        "responses": ["I am Pennywise Bot, created by the Pennywise team to assist you with managing your finances through our budget app.", "My purpose is to help you manage your finances effectively using the Pennywise budget app."]
+      },
+      {
+        "tag": "features",
+        "patterns": ["What features do you offer?", "List your features", "What can I do with the app?", "Available features?"],
+        "responses": ["Some of the features include expense tracking, budget planning, account management, bill reminders, and personalized financial insights.", "You can track expenses, create budgets, manage accounts, set bill reminders, and receive insights to optimize your finances."]
+      },
+      {
+        "tag": "expense",
+        "patterns": ["Add an expense", "Record expense", "Expense entry", "Log expense"],
+        "responses": ["To add an expense, go to the Expenses section and click on 'Add Expense'.", "Record your expenses by entering the details in the Expenses tab."]
+      },
+      {
+        "tag": "budget",
+        "patterns": ["Create a budget", "Budget planning", "Set budget", "Manage budget"],
+        "responses": ["Plan your budget by setting spending limits for different categories in the Budget section.", "Create and manage your budget by allocating funds to various expense categories."]
+      },
+      {
+        "tag": "reminder",
+        "patterns": ["Set a reminder", "Bill reminder", "Notification", "Reminder alert"],
+        "responses": ["Set reminders for upcoming bills or important financial deadlines in the Reminders section.", "Never miss a payment with our bill reminder feature."]
+      },
+      {
+        "tag": "insights",
+        "patterns": ["Get insights", "Financial insights", "Analysis", "Statistics"],
+        "responses": ["Receive personalized financial insights and analysis to optimize your spending habits and achieve your financial goals.", "Unlock valuable insights into your spending patterns and financial trends."]
+      },
+      {
+        "tag": "accounts",
+        "patterns": ["view accounts", "check balance", "account details", "balance inquiry"],
+        "responses": ["To view your accounts, go to the Accounts section.", "You can check your account balances under the Accounts tab."]
+      },
+      {
+        "tag": "transactions",
+        "patterns": ["view transactions", "transaction history", "recent transactions", "transaction details"],
+        "responses": ["To view your transactions, navigate to the Transactions section.", "You can check your transaction history under the Transactions tab."]
+      },
+      {
+        "tag": "budget",
+        "patterns": ["set budget", "budget planning", "budget overview", "manage budget"],
+        "responses": ["You can set up your budget in the Budget section of the app.", "For budget planning, head to the Budget tab."]
+      },
+      {
+        "tag": "debts",
+        "patterns": ["manage debts", "debt tracking", "debt overview", "debt repayment"],
+        "responses": ["To manage your debts, visit the Debts section.", "You can track and repay your debts under the Debts tab."]
+      },
+      {
+        "tag": "wishlist",
+        "patterns": ["create wishlist", "manage wishlist", "wishlist items", "wishlist details"],
+        "responses": ["You can create and manage your wishlist items in the Wishlist section.", "To see your wishlist, go to the Wishlist tab."]
+      },
+      {
+        "tag": "reminders",
+        "patterns": ["set reminders", "manage reminders", "reminder notifications", "upcoming reminders"],
+        "responses": ["Set reminders for important dates and events in the Reminders section.", "Manage your reminders and get notified about upcoming events under the Reminders tab."]
+      },
+
+      {
+        "tag": "authentication",
+        "patterns": ["login", "sign in", "authenticate", "access account"],
+        "responses": ["To login, click on the Login button and enter your credentials.", "Sign in to your account by providing your username and password."]
+      },
+      {
+        "tag": "signup",
+        "patterns": ["register", "create account", "sign up", "new user"],
+        "responses": ["To create a new account, click on the Sign Up button and follow the registration process.", "Sign up as a new user to access all features of the app."]
+      },
+      {
+        "tag": "forgotpassword",
+        "patterns": ["forgot password", "reset password", "password recovery", "forgot my password"],
+        "responses": ["If you forgot your password, you can reset it by clicking on the Forgot Password link and following the instructions.", "Recover your password by initiating a password reset process."]
+      },
+      {
+        "tag": "profile",
+        "patterns": ["edit profile", "update profile", "profile settings", "change password"],
+        "responses": ["Manage your profile settings and update your information under the Profile section.", "You can edit your profile details and change your password in the Profile settings."]
+      },
+      {
+        "tag": "logout",
+        "patterns": ["logout", "sign out", "log off", "exit account"],
+        "responses": ["To logout from your account, click on the Logout button or link.", "Sign out from your account to securely exit."]
+      },
+      {
+        "tag": "accountactivation",
+        "patterns": ["activate account", "account activation", "activate user", "account confirmation"],
+        "responses": ["Activate your account by confirming your email address through the activation link sent to your email.", "Complete the account activation process to access all features."]
+      }
+    ]
+  }
+  
