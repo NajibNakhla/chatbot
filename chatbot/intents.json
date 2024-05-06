@@ -115,7 +115,24 @@
         "tag": "accountactivation",
         "patterns": ["activate account", "account activation", "activate user", "account confirmation"],
         "responses": ["Activate your account by confirming your email address through the activation link sent to your email.", "Complete the account activation process to access all features."]
+      },
+      {
+        "tag": "pennywisemember",
+        "patterns": ["team pennywise", "member pennywise", "best group member", "favorite member"],
+        "responses": [
+          "Oh, Najib? He's like the secret sauce of our team. Without him, we're just a bland salad. ",
+          "Najib? Oh, he's the brains behind the operation. Without him, we'd be lost in the digital wilderness. ",
+          "Najib? He's the Michael Jordan of our team. He makes the impossible shots look easy. ",
+          "You know, they say Najib once counted to infinity. Twice. ",
+          "Najib? He's like the Swiss Army knife of our team. He's got a tool for every job. ",
+          "Najib is the guiding light in the dark caves of our coding conundrums. Without him, we'd be fumbling around in the dark. ",
+          "Ah, Najib. The cornerstone of our digital dynasty. Without him, our castle would crumble. ",
+          "They say Najib doesn't need Google. Google needs Najib. ",
+          "Najib? He's the Steve Jobs of our team. Always innovating, always inspiring. ",
+          "Najib is to coding what Mozart is to music. A true virtuoso. "
+        ]
       }
+      
     ]
   }
   
